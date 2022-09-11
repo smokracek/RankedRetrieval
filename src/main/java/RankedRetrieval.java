@@ -90,8 +90,8 @@ public class RankedRetrieval {
 
 		// check if directory(s) DON'T exist
 		// if they don't exist, do all the work
-		if (!new File("/Users/sammokracek/Desktop/cs128/RankedRetrieval/" + sample + "PostingListDB").exists()
-				|| !new File("/Users/sammokracek/Desktop/cs128/RankedRetrieval/" + sample + "MagnitudesDB").exists()) {
+		if (!new File("<YOUR PATH HERE>" + sample + "PostingListDB").exists()
+				|| !new File("<YOUR PATH HERE>" + sample + "MagnitudesDB").exists()) {
 
 			print("postingListDB doesn't exist!");
 			print("Initializing postingListDB...");
@@ -104,7 +104,7 @@ public class RankedRetrieval {
 			// load posting list
 			Scanner postingList = null;
 			try {
-				postingList = new Scanner(new File("/Users/sammokracek/Desktop/cs128/RankedRetrieval/" + filename));
+				postingList = new Scanner(new File("<YOUR PATH HERE>" + filename));
 				print("Posting List File loaded!");
 			} catch (FileNotFoundException e) {
 				print("File not found!");
@@ -153,7 +153,7 @@ public class RankedRetrieval {
 			// load posting list again
 			Scanner postingList2 = null;
 			try {
-				postingList2 = new Scanner(new File("/Users/sammokracek/Desktop/cs128/RankedRetrieval/" + filename));
+				postingList2 = new Scanner(new File("<YOUR PATH HERE>" + filename));
 				print("Posting List File loaded for magnitudesDB");
 			} catch (FileNotFoundException e) {
 				print("File not found!");
