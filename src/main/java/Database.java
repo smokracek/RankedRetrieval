@@ -11,7 +11,7 @@ public class Database {
 		Options options = new Options();
 		options.createIfMissing(true);
 		try {
-			db = factory.open(new File("/Users/sammokracek/Desktop/cs128/RankedRetrieval/" + name), options);
+			db = factory.open(new File("<YOUR_PATH_HERE>" + name), options);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
