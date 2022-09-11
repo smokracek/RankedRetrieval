@@ -7,4 +7,4 @@ The basic idea of the assignment is to implement 1997 Google-style page rank bas
 This project is a little messy and was never meant to be turned in (our performance was assessed by getting the "correct" rankings
 when asked for a search term on a Canvas quiz).
 
-All the pre-formed LevelDB databases should be already present and the project should be able to run.
+All the pre-formed LevelDB databases should be already present and the project should be able to run, after editing some of the file paths.
